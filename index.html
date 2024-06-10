@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wellness Blog Builder</title>
     <link rel="stylesheet" href="src/style.css" />
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,7 +14,7 @@
     </header>
 
     <main>
-      <form action="">
+      <form id="blog-creator">
         <input
           type="text"
           placeholder="Enter topic and context"
@@ -23,7 +24,7 @@
         />
         <input type="submit" class="submit" />
       </form>
-      <div class="content">content</div>
+      <div class="content" id="content"></div>
     </main>
     <footer>
       This AI project was coded by
