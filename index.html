@@ -11,14 +11,15 @@
   <body>
     <div class="container">
     <header>
-      <h1>Write Your Wellness Blog</h1>
+      <h1>Write Your Employee Wellness Blog</h1>
     </header>
 
     <main>
+      <div class="form-container">
       <form id="blog-creator">
         <input
           type="text"
-          placeholder="Enter topic and context"
+          placeholder="Enter topic and context for your employee wellness blog"
           required
           autocomplete="off"
           class="prompt"
@@ -26,8 +27,11 @@
         />
         <input type="submit" class="submit" />
       </form>
-      <div class="content" id="content"></div>
+      <div class="hint"> e.g., Sleep, Nutrition, Exercise, Digital Detox ...</div>
+      </div>
+      <div class="content hidden" id="content"></div>
     </main>
+
     <footer>
       This AI project was coded by
       <a href="https://github.com/mmjumbo" target="_blank">Maggie Jumbo</a>, is
