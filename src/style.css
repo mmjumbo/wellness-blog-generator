@@ -10,6 +10,10 @@ h1 {
   text-align: center;
 }
 
+.intro {
+  text-align: center;
+  font-size: medium;
+}
 .container {
   margin: 120px auto;
   max-width: 600px;

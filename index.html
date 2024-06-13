@@ -5,48 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wellness Blog Builder</title>
     <link rel="stylesheet" href="src/style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-</head>
+  </head>
   <body>
     <div class="container">
-    <header>
-      <h1>Write Your Employee Wellness Blog</h1>
-    </header>
+      <header>
+        <h1>Generate Your <br />Employee Wellness Blog</h1>
+        <p class="intro">
+          This application is designed to support <br>the content creation efforts of employee wellness program coordinators.
+        </p>
+      </header>
 
-    <main>
-      <div class="form-container">
-      <form id="blog-creator">
-        <input
-          type="text"
-          placeholder="Enter topic and context for your employee wellness blog"
-          required
-          autocomplete="off"
-          class="prompt"
-          id="instruction"
-        />
-        <input type="submit" class="submit" />
-      </form>
-      <div class="hint"> e.g., Sleep, Nutrition, Exercise, Digital Detox ...</div>
-      </div>
-      <div class="content hidden" id="content"></div>
-    </main>
+      <main>
+        <div class="form-container">
+          <form id="blog-creator">
+            <input
+              type="text"
+              placeholder="Enter topic for your wellness blog"
+              required
+              autocomplete="off"
+              class="prompt"
+              id="instruction"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <div class="hint">
+            e.g., Sleep, Nutrition, Exercise, Digital Detox ...
+          </div>
+        </div>
+        <div class="content hidden" id="content"></div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/mmjumbo" target="_blank">Maggie Jumbo</a>, is
-      <a
-        href="https://github.com/mmjumbo/wellness-blog-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://wellness-blog-generator.netlify.app/" target="_blank"
-        >hosted on Netlify</a>
-      
-      
-    </footer>
-</div>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/mmjumbo" target="_blank">Maggie Jumbo</a>,
+        is
+        <a
+          href="https://github.com/mmjumbo/wellness-blog-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://wellness-blog-generator.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
